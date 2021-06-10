@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul.show-menu-admin {
+    text-align: center;
+    background-color: #272343;
+}
+
+ul.show-menu-admin li {
+    display: inline-table;
+    width: 200px;
+    height: 50px;
+    position: relative;
+    line-height: 50px;
+}
+
+ul.show-menu-admin li a {
+    color: #fe6845;
+    display: block;
+    font-size: 20px;
+}
+
+ul.show-menu-admin li:hover {
+    background-color: #e3f6f5;
+}
+
+ul li>.sub-menu-admin {
+    display: none;
+    position: absolute;
+}
+
+ul.sub-menu-admin {
+    background-color: #ffc55c;
+}
+
+ul li:hover ul.sub-menu-admin {
+    display: block;
+}

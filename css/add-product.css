@@ -1,0 +1,50 @@
+form#f-add {
+    font-size: 15px;
+    width: 450px;
+    height: 350px;
+    background-color: burlywood;
+    border-radius: 10px;
+    padding-top: 20px;
+    margin-top: 130px;
+}
+
+form#f-add input[type="text"] {
+    font-size: 15px;
+    float: right;
+    margin-right: 25px;
+    height: 20px;
+    font-size: 13px;
+}
+
+form#f-add input[type="file"] {
+    float: right;
+    margin-right: 25px;
+}
+
+form#f-add input[type="submit"] {
+    font-size: 15px;
+    padding: 8px 30px;
+    background-color: brown;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+form#f-add input[type="submit"]:hover {
+    background-color: tomato;
+}
+
+select {
+    width: 260px;
+    float: right;
+    margin-right: 25px;
+}
+
+legend {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+body {
+    background-image: url(../image/1.png);
+}

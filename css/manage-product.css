@@ -1,0 +1,27 @@
+font {
+    font-size: 25px;
+}
+
+.sizeof {
+    font-size: 25px;
+    text-align: center;
+}
+
+form.frm {
+    display: inherit;
+    text-align: center;
+}
+
+input[type="submit"] {
+    color: #525252;
+    background-color: rgb(80, 228, 136);
+    border-radius: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: tomato;
+}
+
+.table-size td {
+    font-size: 20px;
+}

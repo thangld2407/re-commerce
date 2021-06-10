@@ -1,0 +1,51 @@
+#frm-update {
+    font-size: 15px;
+    width: 450px;
+    height: 550px;
+    background-color: burlywood;
+    border-radius: 10px;
+    padding-top: 20px;
+    margin-top: 130px;
+}
+
+#frm-update input[type="text"] {
+    font-size: 15px;
+    float: right;
+    margin-right: 25px;
+    height: 20px;
+    font-size: 13px;
+    size: 40px;
+}
+
+form#frm-update input[type="file"] {
+    float: right;
+    margin-right: 22px;
+}
+
+form#frm-update input[type="submit"] {
+    font-size: 15px;
+    padding: 8px 30px;
+    background-color: brown;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+form#frm-update input[type="submit"]:hover {
+    background-color: tomato;
+}
+
+select {
+    width: 260px;
+    float: right;
+    margin-right: 28px;
+}
+
+legend {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+font {
+    margin-right: 20px;
+}

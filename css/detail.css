@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#detail {
+    width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+    border: 2px solid black;
+    margin-bottom: 40px;
+}
+
+#themes {
+    background-color: wheat;
+}
+
+#detail-left {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+#detail-right {
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+
+#detail-left img {
+    width: 600px;
+    height: 700px;
+}
+
+#detail-right h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#detail-right {
+    text-indent: 10px;
+    background-color: white;
+}
+
+#crop {
+    width: 600px;
+    height: auto;
+    position: absolute;
+    top: 520px;
+}
