@@ -68,7 +68,7 @@
         include_once('dbconnect.php');
             if(isset($_GET['ProductID'])){
                 $pID = $_GET['ProductID'];
-                $qry = "SELECT product.pID, product.pName, product.pImage, product.pDetail,product.made_in, product.sSize, product.pPrice, category.cName FROM product INNER JOIN category ON product.cID = category.cID WHERE pID = '$pID'";
+                $qry = "SELECT product.pID, product.pName, product.pImage, product.pDetail, product.sSize, product.pPrice, category.cName FROM product INNER JOIN category ON product.cID = category.cID WHERE pID = '$pID'";
                 $result = qryrun($qry);
                 while($row = mysqli_fetch_array($result))
                 {?>
@@ -81,8 +81,7 @@
                             <h2>Name: <?= $row['pName'] ?></h2>
                             <h2>Catarogy: <?= $row['cName'] ?></h2>
                             <h2>Branch: <?= $row['sSize'] ?></h2>
-                            <h2>Detail: <?= $row['pDetail'] ?></h2>
-                            <h2>Made In: <?=$row['made_in']?></h2>
+                            <h2>Detail: <?= $row['pDetail'] ?></h2>                            
                             <h2>Price: <?= $row['pPrice'] ?>$</h2>
                             </div>
                         </div>

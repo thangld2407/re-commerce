@@ -42,7 +42,7 @@
                 <td class = "sizeof">DETAIL</td>
                 <td class = "sizeof">TRADEMARK</td>
                 <td class = "sizeof">PRICE</td>
-                <td class = "sizeof">MADE IN</td>
+                <td class = "sizeof">DETAIL</td>
                 <td class = "sizeof">OPTION</td>
             </tr>
             <?php
@@ -69,7 +69,7 @@
                 </td>
                 <td  align = "center"> <font><?=$row['sSize'] ?></font> </td>
                 <td align = "center"> <font><?=$row['pPrice'] ?></font></td>
-                <td align="center"> <?=$row['made_in']?></td>
+                <td align="center"> <?=$row['pDetail']?></td>
                 <td>
                     <form class = "frm" action="update-product.php" >
                         <input type="hidden" name = "id"  value="<?=$row[0]?>"><br><br>
