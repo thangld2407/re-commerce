@@ -10,7 +10,6 @@
     $detail = $row['pDetail'];
     $trademark = $row['sSize'];
     $price = $row['pPrice'];
-    $madein = $row['made_in'];
     if(isset($_POST['update'])) //POST -> GET
     { 
         $idP = $_GET['id'];
@@ -92,8 +91,6 @@
         Trademark: <input type="text" name = "trademark" value="<?=$row2['sSize'] ?>" size="40"required>
         <br><br>
         Price: <input type="text" name="price" value="<?=$row2['pPrice'] ?>" size="40" required>
-        <br><br>   
-        MADE IN: <input type="text" name="made" id="" value="<?=$row2['made_in']?>" size = "40" require>   
         <br><br>
         <input type="submit" name="update" value="UPDATE">
 
